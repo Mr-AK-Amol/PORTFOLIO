@@ -1273,3 +1273,58 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Neon Contact Form Styles */
+#contact-form {
+  background: rgba(20, 30, 48, 0.85);
+  padding: 32px 24px;
+  border-radius: 18px;
+  box-shadow: 0 0 24px #00f2fe44, 0 0 48px #4facfe22;
+  max-width: 420px;
+  margin: 32px auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #181c2f;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: 0 0 8px #00f2fe33;
+  outline: none;
+  transition: box-shadow 0.3s, background 0.3s;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  background: #889de3;
+  box-shadow: 0 0 12px #00f2fe, 0 0 24px #4facfe;
+}
+
+#contact-form textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+#contact-form button[type="submit"] {
+  background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px #00f2fe, 0 0 20px #4facfe;
+  cursor: pointer;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+#contact-form button[type="submit"]:hover {
+  box-shadow: 0 0 20px #00f2fe, 0 0 40px #4facfe, 0 0 60px #00f2fe;
+  transform: translateY(-2px) scale(1.05);
+}
